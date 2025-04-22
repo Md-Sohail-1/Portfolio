@@ -1,0 +1,27 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins';
+  scroll-behavior: smooth;
+}
+hr{
+  position: relative;
+  top: -10px;
+  width: auto;
+  margin: 0px 5%;
+}
+body{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background: red;
+}
+/*
+  grid-template-areas: 'header' 'main';
+  padding: 0px;
+#header{
+  grid-area: header;
+}
+#main{
+  grid-area: main;
+}
+*/
