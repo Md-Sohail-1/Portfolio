@@ -11,17 +11,8 @@ hr{
   margin: 0px 5%;
 }
 body{
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  background: red;
+  background: rgba(220,220,240,1);
 }
-/*
-  grid-template-areas: 'header' 'main';
-  padding: 0px;
-#header{
-  grid-area: header;
+textarea{
+  resize: none;
 }
-#main{
-  grid-area: main;
-}
-*/
