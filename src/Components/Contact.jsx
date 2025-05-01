@@ -27,6 +27,8 @@ const Contact = () => {
     
     const response = await handleUserContactDetailForm(data);
     
+    alert(JSON.stringify(response))
+    
     if(!response.message){
       if(response.status < 300){
         setInputData({...inputData, name: '', email: '', message: ''});
@@ -51,9 +53,10 @@ const Contact = () => {
     setTimeout(()=>{
       setFormSubmited('');
     }, 4000)
+    
   }
   
-  /*
+  
   useEffect(()=>{
     if(formSubmited === true || formSubmited === false) {
       setTimeout(()=>{
@@ -61,7 +64,6 @@ const Contact = () => {
       },2000)
     };
   }, [formSubmited])
-  */
   
   return (
     <section id="contact" className="pb-16 pt-6 px-6 bg-slate-700">
@@ -85,7 +87,7 @@ const Contact = () => {
           <div>
             <textarea placeholder="Your Message" rows="5" required onChange={handleInputChange} value={inputData.message} name='message' className="w-full px-4 py-3 bg-slate-300 text-slate-800 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 placeholder-slate-600"></textarea>
           </div>
-          <button type="submit" className="w-full bg-indigo-600 text-slate-200 py-3 rounded-lg hover:bg-indigo-700 transition">Send Message</button>
+          <button type="submit" className="w-full bg-blue-600 text-slate-200 py-3 rounded-lg hover:bg-indigo-700 transition">Send Message</button>
         </form>
       </div>
     </section>

@@ -3,18 +3,18 @@ import ProjectCard from './ProjectCard'
 const Projects = () => {
   let myProjects = [
     {
-      title: 'Portfolio Website',
-      desc: 'A clean and responsive portfolio built with HTML, Tailwind CSS, and JavaScript.',
-      link: '#',
-    },
-    {
       title: 'Twitter Clone',
       desc: 'Built with Node.js, Express, EJS, and MongoDB. Features secure login with JWT, public & private posts, and full CRUD. Clean UI with vanilla CSS & JavaScript.',
       link: 'https://social-app-o8zo.onrender.com',
     },
     {
-      title: 'Ecommerce UI',
-      desc: 'Frontend e-commerce interface with product cards, filters, and responsive design.',
+      title: 'Real Estate Web App',
+      desc: 'Built a responsive property platform with features to buy, sell, and search properties by location, price, and more. Used Tailwind CSS for UI and React Router Dom for routing.',
+      link: '#',
+    },
+    {
+      title: 'Portfolio Website',
+      desc: 'A clean and responsive portfolio built with HTML, Tailwind CSS, and JavaScript.',
       link: '#',
     },
   ];

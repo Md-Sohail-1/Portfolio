@@ -1,7 +1,7 @@
 import { ReactTyped } from 'react-typed'
 
 const HomePage = () => {
-  const typedStrings = ['Front-end Developer', 'MERN Stack Developer', 'Node.js Developer']
+  const typedStrings = ['Front-end Developer', 'MERN Stack Developer', 'React js Developer']
   return (
     <>
       <section className="min-h-[calc(100vh-128px)] bottom-0 max-h-[calc(100vh-64px)] flex flex-col items-center justify-center text-center px-4 z-10 relative">
@@ -14,9 +14,9 @@ const HomePage = () => {
            loop />
         </h2>
         <p className="max-w-xl text-gray-300 mb-10">Passionate frontend developer crafting beautiful, performant web apps with modern technologies.</p>
-        <div className="flex gap-4 text-sm">
-          <a href="#projects" className="px-6 py-2 bg-blue-600 text-gray-200 rounded-full hover:bg-blue-700 transition">See My Work</a>
-          <a href="#contact" className="px-6 py-2 border bg-gray-100 text-blue-500 rounded-full hover:bg-gray-300 transition">Contact Me</a>
+        <div className="flex gap-2 text-sm">
+          <a href="#projects" className="px-6 py-2 bg-blue-600 text-gray-200 rounded-md hover:bg-blue-700 transition">See My Work</a>
+          <a href="#contact" className="px-6 py-2 border bg-gray-100 text-blue-500 rounded-md hover:bg-gray-300 transition">Contact Me</a>
         </div>
       </section>
       <hr/>

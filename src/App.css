@@ -11,7 +11,7 @@ hr{
   margin: 0px 5%;
 }
 body{
-  background: rgba(220,220,240,1);
+  padding: 0px;
 }
 textarea{
   resize: none;
