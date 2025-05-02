@@ -10,7 +10,7 @@ const Projects = () => {
     {
       title: 'Real Estate Web App',
       desc: 'Built a responsive property platform with features to buy, sell, and search properties by location, price, and more. Used Tailwind CSS for UI and React Router Dom for routing.',
-      link: '#',
+      link: 'https://realestate-rjmfg18ef-md-sohails-projects-c1b0a487.vercel.app',
     },
     {
       title: 'Portfolio Website',
