@@ -4,7 +4,7 @@ const HomePage = () => {
   const typedStrings = ['Front-end Developer', 'MERN Stack Developer', 'React js Developer']
   return (
     <>
-      <section className="min-h-[calc(100vh-128px)] bottom-0 max-h-[calc(100vh-64px)] flex flex-col items-center justify-center text-center px-4 z-10 relative">
+      <section className="bottom-0 h-[calc(100vh-64px)] flex flex-col items-center justify-center text-center px-4 z-10 top-2 relative">
         <h1 className="text-3xl sm:text-5xl font-bold mb-4 text-gray-100">Hi, I'm <span className="text-blue-400">Md Sohail</span></h1>
         <h2 className="text-2xl sm:text-3xl text-gray-100 mb-6">
            I'm a <ReactTyped className="text-blue-400 font-semibold" 

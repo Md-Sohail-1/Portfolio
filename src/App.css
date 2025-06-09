@@ -3,6 +3,7 @@
   margin: 0px;
   font-family: 'Poppins';
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 hr{
   position: relative;

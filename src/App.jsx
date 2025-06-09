@@ -15,7 +15,7 @@ function App() {
       {
       //Main Content Placeholder 
       }
-      <main id="main" class="h-[calc(100vh-128px)] p-4 pb-0 bg-slate-700 relative top-16 text-gray-800 overflow-x-hidden">
+      <main id="main" class="h-[calc(100vh-64px)] p-4 pb-0 bg-slate-700 relative z-20 top-16 text-gray-800 overflow-x-hidden">
         <HomePage />
         <Projects />
         <hr/>

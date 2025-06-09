@@ -5,7 +5,7 @@ const Header = () => {
   
   return(
   <>
-    <header id="header" className="opacity-100 flex items-center justify-between p-4 bg-slate-200 shadow-md fixed top-0 w-full z-50 h-16 md:px-16 sm:px-6">
+    <header id="header" className="flex items-center justify-between p-4 bg-slate-200 shadow-md fixed w-full z-50 max-h-16 md:px-16 sm:px-6">
       <div className="text-2xl font-bold">MD Sohail</div>
     
      {
