@@ -22,8 +22,8 @@ const Projects = () => {
   return (
     <section id="projects" class="pb-16 pt-6 px-6 bg-slate-700 w-full">
       <div class="max-w-5xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-4 text-gray-200">Projects</h2>
-        <p class="text-gray-400 mb-10">A few of the things I've built</p>
+        <h2 class="pageHeading text-3xl font-bold mb-4 text-gray-200">Projects</h2>
+        <p class="pageText text-gray-400 mb-10">A few of the things I've built</p>
         <div class="grid gap-8 md:grid-cols-2 sm:px-6 md:px-12">
           {
             myProjects.map((project,index)=> (
