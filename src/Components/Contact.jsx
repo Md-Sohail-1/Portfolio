@@ -27,8 +27,6 @@ const Contact = () => {
     
     const response = await handleUserContactDetailForm(data);
     
-    alert(JSON.stringify(response))
-    
     if(!response.message){
       if(response.status < 300){
         setInputData({...inputData, name: '', email: '', message: ''});
