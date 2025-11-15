@@ -21,8 +21,8 @@ const Header = () => {
      { // Mobile Menu Button 
      }
       <button id="menuBtn" onClick={() => setIsMainBtnClick(!isMainBtnClick)} className="md:hidden text-gray-700 focus:outline-none">
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
         </svg>
       </button>
     </header>
@@ -30,8 +30,8 @@ const Header = () => {
       <div className="flex justify-between items-center mb-6">
         <span className="text-xl font-semibold text-slate-100">Md Sohail</span>
         <button id="closeBtn" onClick={() => setIsMainBtnClick(!isMainBtnClick)} className="text-gray-100">
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12"/>
           </svg>
         </button>
       </div>

@@ -4,6 +4,7 @@
   font-family: 'Poppins';
   scroll-behavior: smooth;
   box-sizing: border-box;
+  scrollbar-width: none;
 }
 body{
   padding: 0px;

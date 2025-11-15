@@ -20,11 +20,11 @@ const Projects = () => {
   ];
   
   return (
-    <section id="projects" class="pb-16 pt-6 px-6 bg-slate-700 w-full">
-      <div class="max-w-5xl mx-auto text-center">
-        <h2 class="pageHeading text-3xl font-bold mb-4 text-gray-200">Projects</h2>
-        <p class="pageText text-gray-400 mb-10">A few of the things I've built</p>
-        <div class="grid gap-8 md:grid-cols-2 sm:px-6 md:px-12">
+    <section id="projects" className="pb-16 pt-6 px-6 bg-slate-700 w-full">
+      <div className="max-w-5xl mx-auto text-center">
+        <h2 className="pageHeading text-3xl font-bold mb-4 text-gray-200">Projects</h2>
+        <p className="pageText text-gray-400 mb-10">A few of the things I've built</p>
+        <div className="grid gap-8 md:grid-cols-2 sm:px-6 md:px-12">
           {
             myProjects.map((project,index)=> (
               <ProjectCard title={project.title} description={project.desc} link={project.link} key={index}/>

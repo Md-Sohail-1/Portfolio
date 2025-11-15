@@ -48,11 +48,11 @@ const Skills = () => {
   ]
   
   return (
-    <section id="skills" class="pb-16 pt-6 px-6 bg-slate-700">
-      <div class="max-w-5xl mx-auto text-center">
-        <h2 class="pageHeading text-3xl font-bold mb-4 text-gray-200">Skills</h2>
-        <p class="pageText text-gray-400 mb-10">Technologies and tools I use regularly</p>
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 sm:px-6 md:px-12">
+    <section id="skills" className="pb-16 pt-6 px-6 bg-slate-700">
+      <div className="max-w-5xl mx-auto text-center">
+        <h2 className="pageHeading text-3xl font-bold mb-4 text-gray-200">Skills</h2>
+        <p className="pageText text-gray-400 mb-10">Technologies and tools I use regularly</p>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 sm:px-6 md:px-12">
           {
             mySkills.map((skill, index)=> (
               <SkillCard title={skill.title} imageUrl={skill.logo} key={index}/>
