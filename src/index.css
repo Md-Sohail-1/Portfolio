@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .bg-skill-card {
+    @apply bg-slate-200 hover:bg-slate-300 hover:translate-y-1;
+  }
+  .project-card {
+    @apply bg-slate-200 hover:bg-slate-300;
+  }
+  .input-box{
+    @apply bg-slate-200 hover:bg-slate-300 
+  }
+}

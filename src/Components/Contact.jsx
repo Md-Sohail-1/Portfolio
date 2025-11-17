@@ -77,13 +77,13 @@ const Contact = () => {
 
         <form id="contactForm" onSubmit={submitContactForm} className="max-w-xl mx-auto space-y-3 sm:px-6 md:px-12">
           <div>
-            <input type="text" placeholder="Your Name" required  onChange={handleInputChange} value={inputData.name} name='name' className="skill-card w-full px-4 py-3 bg-slate-300 text-slate-800 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 placeholder-slate-600"/>
+            <input type="text" placeholder="Your Name" required  onChange={handleInputChange} value={inputData.name} name='name' className="skill-card input-box w-full px-4 py-3 text-slate-800 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 placeholder-slate-600" autoComplete='true'/>
           </div>
           <div>
-            <input type="email" placeholder="Your Email" required  onChange={handleInputChange} value={inputData.email} name='email' className="skill-card w-full px-4 py-3 bg-slate-300 text-slate-800 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 placeholder-slate-600"/>
+            <input type="email" placeholder="Your Email" required  onChange={handleInputChange} value={inputData.email} name='email' className="skill-card input-box w-full px-4 py-3 text-slate-800 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 placeholder-slate-600" autoComplete='true'/>
           </div>
           <div>
-            <textarea placeholder="Your Message" rows="5" required onChange={handleInputChange} value={inputData.message} name='message' className="skill-card w-full px-4 py-3 bg-slate-300 text-slate-800 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 placeholder-slate-600"></textarea>
+            <textarea placeholder="Your Message" rows="5" required onChange={handleInputChange} value={inputData.message} name='message' className="skill-card input-box w-full px-4 py-3 text-slate-800 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 placeholder-slate-600"></textarea>
           </div>
           <button type="submit" className="page-btn w-full bg-blue-600 text-slate-200 py-3 rounded-lg hover:bg-indigo-700 transition">Send Message</button>
         </form>
