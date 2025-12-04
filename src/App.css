@@ -37,7 +37,7 @@ hr{
 
 .project-card{
   animation: fadeCard both;
-  animation-timeline: view(40% 0%);
+  animation-timeline: view(100% 10%);
 }
 @keyframes fadeCard{
   from{
@@ -54,7 +54,7 @@ hr{
 
 .skill-card{
   animation: fadeSkillCard both;
-  animation-timeline: view(30% 0%);
+  animation-timeline: view(80% 0%);
 }
 @keyframes fadeSkillCard{
   from{
@@ -71,7 +71,7 @@ hr{
 
 .page-btn{
   animation: fadeBtn both;
-  animation-timeline: view(60% 5%);
+  animation-timeline: view(80% 5%);
 }
 @keyframes fadeBtn {
   from {
@@ -117,9 +117,9 @@ hr{
   }
 }
 
-.formInputs{
+/* .formInputs{
   animation: formInputs both;
-  animation-timeline: view();
+  animation-timeline: view(100%, 10%);
 }
 @keyframes formInputs {
   from{
@@ -130,7 +130,7 @@ hr{
     opacity: 1;
     translate: 0 0;
   }
-}
+} */
 
 @keyframes nothing {
   from{

@@ -1,5 +1,6 @@
 import { ReactTyped } from 'react-typed'
 
+
 const HomePage = () => {
   const typedStrings = ['Front-end Developer', 'MERN Stack Developer', 'React js Developer']
   return (
@@ -10,13 +11,13 @@ const HomePage = () => {
            I'm a <ReactTyped className="text-blue-400 font-semibold" 
            strings={typedStrings} 
            typeSpeed={80} 
-           backSpeed={50} 
+           backSpeed={60} 
            loop />
         </h2>
-        <p className="max-w-xl text-gray-300 mb-10">Passionate frontend developer crafting beautiful, performant web apps with modern technologies.</p>
+        <p className="max-w-xl text-gray-300 mb-10">I’m a frontend developer who enjoys building clean, responsive, and user-friendly web interfaces. I love learning new technologies and creating projects that solve real problems.</p>
         <div className="flex gap-2 text-sm">
-          <a href="#projects" className="px-6 py-2 bg-blue-600 text-gray-200 rounded-md hover:bg-blue-700 transition">See My Work</a>
-          <a href="#contact" className="px-6 py-2 border bg-gray-100 text-blue-500 rounded-md hover:bg-gray-300 transition">Contact Me</a>
+          <a href="../src/assets/sohailResume.pdf" role='button' download="sohailResume.pdf" className="px-6 py-2 bg-blue-600 text-gray-200 rounded-md hover:bg-blue-700 transition">Download Resume</a>
+          <a href="#contact" className="px-6 py-2 border bg-gray-100 text-blue-500 rounded-md hover:bg-gray-300 transition">See My Work</a>
         </div>
       </section>
       <hr/>
