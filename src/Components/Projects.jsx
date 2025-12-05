@@ -11,7 +11,7 @@ const Projects = () => {
       link: 'https://e-commerce-psi-two-62.vercel.app',
       githubLink: 'https://github.com/Md-Sohail-1/e-com',
       img: eCom,
-      techStack: ['React.js', 'Tailwind CSS', 'JavaScript', 'Git', 'Redux', 'GitHub', 'Responsive Web Design', 'Routing']
+      techStack: ['React.js', 'Tailwind CSS', 'JavaScript', 'Git', 'Redux', 'GitHub', 'Routing', 'Responsive Web Design']
     },
     {
       title: 'Real Estate Web App',

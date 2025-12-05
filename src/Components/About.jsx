@@ -6,7 +6,7 @@ const About = () => {
         <p className="pageText text-gray-300 text-lg leading-relaxed">I'm a frontend developer passionate about crafting modern, responsive websites and web apps. I focus on performance, accessibility, and clean UI/UX. I enjoy working with tools like
           <span className="text-blue-400 font-medium"> React</span>,
           <span className="text-blue-400 font-medium"> Tailwind CSS</span>, and
-          <span className="text-blue-400 font-medium"> JavaScript</span> to build engaging digital experiences.
+          <span className="text-blue-400 font-medium"> JavaScript</span> to build engaging user interfaces/experience.
         </p>
         <p className="pageText text-gray-300 mt-4 text-lg">
           When I'm not coding, you'll find me exploring design trends, contributing to open source, or sketching UI ideas.
